@@ -1,0 +1,29 @@
+[game]
+id = "tm-original"
+name = "TrackMania Original"
+app_name = "TmOriginalRecomp"
+bundle_id = "dev.recompkit.tmoriginal"
+executable = "TMORIGINAL.EXE"
+sha256 = "75e129d769f4595ddde54a8ef484162915bc2bf998c1a2139cc963294fe8175e"
+image_base = 0x00400000
+guest_size = 0x20000000
+host_arena_base = 0
+entry_point = 0x004025ba
+guest_root = 'C:\TMOriginal'
+windows_version = "5.1.2600"
+
+[setup]
+supported_version = "TrackMania Original (English Community Repack)"
+source_notes = "Select the local TrackMania Original folder containing TMORIGINAL.EXE and GameData."
+
+[translate]
+code_map = "metadata"
+discover = true
+entry_points = [0x004025ba]
+native = { header = "native/mslu.h", sources = ["native/mslu.cpp"] }
+
+[render]
+d3d8_wgpu = true
+
+[controls]
+mobile_control = "mobile-only"

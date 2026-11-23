@@ -1,0 +1,15 @@
+/local/
+/build/
+/recomp-toolkit/
+__pycache__/
+.env
+*.exe
+*.EXE
+*.dll
+*.DLL
+*.iso
+*.ISO
+*.7z
+*.zip
+*.apk
+*.log

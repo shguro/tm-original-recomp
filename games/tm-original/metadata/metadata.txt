@@ -1,0 +1,9 @@
+format=recomp-code-map-v3
+status=complete
+program=TMORIGINAL.EXE
+executable_sha256=75e129d769f4595ddde54a8ef484162915bc2bf998c1a2139cc963294fe8175e
+language=x86:LE:32:default
+image_base=00400000
+functions=21079
+instructions=1434053
+instruction_bytes=4537221
